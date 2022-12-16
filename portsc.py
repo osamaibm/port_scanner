@@ -8,7 +8,7 @@ nm = nmap.PortScanner()
 ip_address = input("Enter the IP address of the network device : ")
 
 # Scan the host for vulnerabilities
-nm.scan(ip_address, '22-443')
+nm.scan(ip_address, '22-1000')
 
 # Print the results
 for host in nm.all_hosts():
